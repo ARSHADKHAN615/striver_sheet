@@ -59,7 +59,13 @@ public:
 };
 
 
-//** Approach 2
+/* Approach 2 is to use two arrays one for row and one for column 
+first traverse the matrix and mark the row and column in which 0 is present
+then traverse the matrix again and set the row and column to 0 if the row and column is marked
+*/
+// TC O(m*n)+O(m*n)
+// SC O(m+n)
+
 class Solution
 {
 public:

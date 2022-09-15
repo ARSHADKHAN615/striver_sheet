@@ -9,6 +9,13 @@ void nextPermutation(vector<int> &nums)
     std::reverse(nums.rbegin(), dest);
 }
 
+
+// this is the code for next permutation
+/* this code approach is to find the first element from the end which is not in sorted order 
+and then find the next element which is greater than the element found and swap them 
+and then reverse the array from the element found to the end of the array*/
+// Time Complexity: O(n)
+// Space Complexity: O(1)
 class Solution
 {
 public:

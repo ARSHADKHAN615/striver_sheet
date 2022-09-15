@@ -1,4 +1,9 @@
-//** Better Approach
+// sort 0,1,2 problem is a variation of this problem
+// if 0 is found then nextOne is incremented and 0 is swapped with nextOne
+// if 2 is found then nextTwo is decremented and 2 is swapped with nextTwo
+// if 1 is found then nothing is done
+// Time Complexity: O(n)
+// Space Complexity: O(1)
 class Solution {
 public:
     void sortColors(vector<int>& nums) {
@@ -22,7 +27,13 @@ public:
     }
 };
 
-//** Optimize Approach
+//** Optimize Approach **//
+// Time Complexity: O(n)
+// Space Complexity: O(1)
+// In this approach we are using 3 pointers low, mid and high to keep track of 0,1 and 2 respectively 
+// low is used to keep track of 0
+// hi is used to keep track of 2
+// mid is used to traverse the array
 class Solution {
 public:
     void sortColors(vector<int>& nums) {

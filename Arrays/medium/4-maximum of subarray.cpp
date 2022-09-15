@@ -18,7 +18,14 @@ int maxSubArray(vector < int > & nums, vector < int > & subarray) {
 }
 
 
-//** Kadane’s Algorithm Optimize Approach
+//** Kadane’s Algorithm 
+/* The simple idea of Kadane’s algorithm is to look for all positive contiguous segments.
+this is the best approach to solve this problem.
+The maximum sum subarray problem consists in finding the maximum sum of a contiguous subsequence in an array or list of integers:*/
+
+/* Time Complexity: O(n)
+Space Complexity: O(1) */
+
 class Solution {
 public:
     int maxSubArray(vector<int>& nums) {
