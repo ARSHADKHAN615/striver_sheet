@@ -19,7 +19,14 @@ public:
 
 
 
-//** Optimize Approach
+//** Optimize Approach 1 
+// This is the best approach to solve this problem.
+// Time Complexity: O(n)
+// Space Complexity: O(1)
+/* in this approach we are using 2 pointers minP and ans to keep track of minimum price and maximum profit respectively.
+    minP is used to keep track of minimum price
+    ans is used to keep track of maximum profit
+    */
 class Solution {
 public:
     int maxProfit(vector<int>& arr) {
