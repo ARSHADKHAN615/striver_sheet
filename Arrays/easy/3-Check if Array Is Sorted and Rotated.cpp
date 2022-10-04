@@ -1,3 +1,5 @@
+// check if array is sorted and rotated or not
+// Approach of this problem is itrate and find the two point 
 class Solution
 {
 public:
